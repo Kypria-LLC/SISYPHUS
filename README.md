@@ -1,4 +1,4 @@
-# SISYPHUS – The Endless Pursuit Engine
+scrolls/initiation.md# SISYPHUS – The Endless Pursuit Engine
 
 A private forge under Kypria-LLC, this repository reimagines the myth of Sisyphus not as punishment—but as protocol.
 
@@ -28,4 +28,6 @@ Push is profit. Punishment becomes purpose.
 ---
 
 **A Kyprian Initiative. Forged in repetition, monetized through recursion.**
-feat: initiate ascent protocol and bind Kyprian push loop to sponsor ledger
+feat: initiate ascent protocol and bind Kyprian push loop to sponsor ledger- Introduced `ritual-loop.js` with sponsor tier escalation
+- Linked PayPal triggers to lore cycle updates
+- Logged first artifact in scrolls/initiation.md
