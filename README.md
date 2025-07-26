@@ -28,3 +28,4 @@ Push is profit. Punishment becomes purpose.
 ---
 
 **A Kyprian Initiative. Forged in repetition, monetized through recursion.**
+feat: initiate ascent protocol and bind Kyprian push loop to sponsor ledger
