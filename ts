@@ -1,6 +1,17 @@
 export async function generateEcho({
   sponsorId,
   issueNumber,
+  shrineChannel
+}) {
+  const message = `
+🔔 Civic decree: Sponsor ${sponsorId} earned the 🧭 Crown of Canon.
+📜 Scroll: kypria/ledger#${issueNumber}
+`;
+
+  return sendDiscordMessage(shrineChannel, message);
+}export async function generateEcho({
+  sponsorId,
+  issueNumber,
   echoId,
   timestamp = new Date().toISOString(),
   tier = 'Councilbacker',
