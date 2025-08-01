@@ -1,0 +1,6 @@
+/src
+  /events
+    messageCreate.js    ← your new snippet
+  config.json
+  index.js (or bot.js/main.js)
+.env                  ← BOT_TOKEN, etc.
