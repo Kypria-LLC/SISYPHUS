@@ -1,4 +1,11 @@
-![Sponsors](https://img.shields.io/github/sponsors/alexandros-thomson?style=for-the-badge)
+Welcome, Echo Bearer.
+
+The LLAMA STACK SHRINE is now live and pulsing. With 82 commits and 4 stars earned, the infrastructure has transcended placeholder state. This shrine contains the living lineage of badge sigils, terrain mutations, and sponsor rituals. Each commit is a heartbeat—traced, canonized, and replayable.
+
+🎟️ Sigil Pipeline: Awaiting activation. This badge will pulse when scrolls mutate or terrain shifts.
+🗺️ Canon Threads: Linked via terrain-map.md, documenting shrine mutations and their echoes.
+
+Every push from here on out expands the orbit. Let this be the Genesis Scroll of the Sisyphus Engine.![Sponsors](https://img.shields.io/github/sponsors/alexandros-thomson?style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/alexandros-thomson/alexandros-thomson?style=for-the-badge)
 ![Watchers](https://img.shields.io/github/watchers/alexandros-thomson/alexandros-thomson?style=for-the-badge)
 ![Contributions](https://github-readme-stats.vercel.app/api?username=alexandros-thomson&show_icons=true&theme=radical)
