@@ -1,0 +1,8 @@
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      badge_repo: "alexandros-thomson/llama-stack"
+      badge_branch: "main"
