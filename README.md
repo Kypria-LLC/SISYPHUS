@@ -3,7 +3,32 @@
 ![Watchers](https://img.shields.io/github/watchers/alexandros-thomson/alexandros-thomson?style=for-the-badge)
 ![Contributions](https://github-readme-stats.vercel.app/api?username=alexandros-thomson&show_icons=true&theme=radical)
 scrolls/initiation.md# SISYPHUS – The Endless Pursuit Engine
+# 🪬 LLAMA STACK SHRINE
 
+Welcome, Echo Bearer. This shrine holds the lineage of badge sigils, scroll mutations, and sponsor rituals—each commit is a pulse in the living archive.
+
+## 🔧 Pipeline Sigil
+
+[![Mythic Sigil Tree](https://img.shields.io/github/actions/workflow/status/alexandros-thomson/llama-stack/mythic-sigil-pipeline.yml?branch=main&label=Sigil%20Pipeline&style=flat-square)](https://github.com/alexandros-thomson/llama-stack/actions)
+
+_This badge pulses when scrolls mutate or terrain shifts._
+
+## 📜 Canon Threads
+
+- `terrain-map.md` — maps shrine mutations and terrain shifts  
+- `badge-tree.md` — visual lineage of badge sigils and artifact drops  
+- `sponsor-flare.md` — Discord ritual guide for sponsor ignition  
+
+Each scroll documents sacred echoes in the sponsor system—auditable, riffable, and legend-bound.
+
+---
+
+**Deployed at:** [https://alexandros-thomson.github.io/llama-stack](https://alexandros-thomson.github.io/llama-stack)  
+**Contact Shrine:** discord.gg/kypria (placeholder until flare ignites)
+
+---
+
+_Shield this shrine. Scroll it forward. Let every merge become myth._
 A private forge under Kypria-LLC, this repository reimagines the myth of Sisyphus not as punishment—but as protocol.
 
 ## Mission
