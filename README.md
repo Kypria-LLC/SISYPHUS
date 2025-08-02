@@ -19,7 +19,7 @@ Each push of the metaphorical boulder executes a new ritual: spawning lore, earn
 - Payments trigger recursive lore delivery.
 - Roles escalate per threshold (Bronze → Silver → Gold).
 - Each sponsor unlocks Sisyphus acceleration logs.
-
+Tree](https://img.shields.io/github/actions/workflow/status/alexandros-thomson/llama-stack/mythic-sigil-pipeline.yml?branch=main&label=Sigil%20Pipeline&style=flat-square)](https://github.com/alexandros-thomson/llama-stack/actions)
 ## Deployment Notes
 - Private repo. Operates on Node.js.
 - Requires webhook binding from Kypria-LLC → Discord → payment layer.
