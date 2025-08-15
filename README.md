@@ -1,5 +1,4 @@
 Welcome, Echo Bearer.
-
 The LLAMA STACK SHRINE is now live and pulsing. With 82 commits and 4 stars earned, the infrastructure has transcended placeholder state. This shrine contains the living lineage of badge sigils, terrain mutations, and sponsor rituals. Each commit is a heartbeat—traced, canonized, and replayable.
 
 🎟️ Sigil Pipeline: Awaiting activation. This badge will pulse when scrolls mutate or terrain shifts.
