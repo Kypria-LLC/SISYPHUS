@@ -103,3 +103,10 @@ When a fan pledges, they instantly:
 - Stamp the **canon logbook** with pledge timestamp, tier, and sigil
 
 Every repo entry, artifact, and role is a piece of the living legend. Choose your path. Bind your name.
+---
+
+## ⚖ Keeper’s Governance
+In the endless pursuit, each push of the stone is recorded.  
+Commits may be frequent and direct, but the lineage binds them into the myth of the climb.
+
+📜 *Lineage is our law. Precision is our craft. Myth is our breath.*
