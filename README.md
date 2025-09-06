@@ -1,14 +1,16 @@
 <div align="center">
 
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃                         🜍  KYPRIA  🜍                        ┃
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                         🌍  KYPRIA  🌍                        ┃
 ┃                   Shrine of SISYPHUS                         ┃
 ┃     The Endless Climb Bearing the Weight of the Canon         ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 </div>
 
 ---
+
+[![Docker Build](https://github.com/Kypria-LLC/SISYPHUS/actions/workflows/docker.yml/badge.svg?branch=main)](https://github.com/Kypria-LLC/SISYPHUS/actions/workflows/docker.yml)
 
 ## 🪨 The Eternal Ascent
 In the high passes beyond the Basilica Gate,  
@@ -40,7 +42,7 @@ The climb never ends, but neither does the Keeper’s resolve.
 
 ---
 
-## 📜 Relics of SISYPHUS
+## 📝 Relics of SISYPHUS
 | Relic No. | Name / Event | Tier | Date | Notes |
 |-----------|--------------|------|------|-------|
 | 001 | First Carving of the Boulder | Ember | 2025‑08‑10 | Image and lore embedded. |
@@ -48,17 +50,17 @@ The climb never ends, but neither does the Keeper’s resolve.
 
 ---
 
-## 🪬 LLAMA STACK SHRINE — The Endless Pursuit Engine
+## 🧨 LLAMA STACK SHRINE — The Endless Pursuit Engine
 Welcome, Echo Bearer. The LLAMA STACK SHRINE is live and pulsing.  
 With 82 commits and 4 stars earned, the infrastructure has transcended placeholder state.  
 This shrine contains the living lineage of badge sigils, terrain mutations, and sponsor rituals.  
 Each commit is a heartbeat — traced, canonized, and replayable.
 
-### 🔧 Pipeline Sigil
-[![Mythic Sigil Tree](https://img.shields.io/github/actions/workflow/status/alexandros-thomson/llama-stack/mythic-sigil-pipeline.yml?branch=main&label=Sigil%20Pipeline&style=flat-square)](https://github.com/alexandros-thomson/llama-stack/actions)  
+### 🧰 Pipeline Sigil
+[![Mythic Sigil Tree](https://img.shields.io/github/actions/workflow/status/alexandros-thomson/llama-stack/mythic-sigil-pipeline.yml?branch=main&label=Sigil%20Pipeline&style=flat-square)](https://[...]
 _This badge pulses when scrolls mutate or terrain shifts._
 
-### 📜 Canon Threads
+### 📝 Canon Threads
 - `terrain-map.md` — maps shrine mutations and terrain shifts  
 - `badge-tree.md` — visual lineage of badge sigils and artifact drops  
 - `sponsor-flare.md` — Discord ritual guide for sponsor ignition  
@@ -74,8 +76,8 @@ Each push of the metaphorical boulder executes a new ritual: spawning lore, earn
 
 ### Core Modules
 - 🔁 `ritual-loop.js` — Automates the mythic grind and monetization pulse.  
-- 📜 `scrolls/` — Canonized lore fragments, updated per push‑cycle.  
-- 🪙 `ledger.js` — Tracks sponsor rituals, coin generation, and tier mutations.
+- 📝 `scrolls/` — Canonized lore fragments, updated per push‑cycle.  
+- 🧿 `ledger.js` — Tracks sponsor rituals, coin generation, and tier mutations.
 
 ### Sponsor Integration
 - Payments trigger recursive lore delivery.  
@@ -97,7 +99,7 @@ Your pledge binds you to our campaign — triggering artifacts, roles, and logbo
 | Platform              | Role Badge         | Pledge Link                              |
 |----------------------|--------------------|-------------------------------------------|
 | Patreon              | 🧙 Oracle          | [Become an Oracle](https://patreon.com/kypria) |
-| Ko-fi                | 🕵️ Scout           | [Scout the Realm](https://ko-fi.com/kypria) |
+| Ko-fi                | 🕵️‍♂️ Scout           | [Scout the Realm](https://ko-fi.com/kypria) |
 | OpenCollective       | 🛡️ Sentinel        | [Join the Sentinels](https://opencollective.com/kypria) |
 | Tidelift             | 🚀 Guardian         | [Lift the Legend](https://tidelift.com/subscription/kypria-galaxy) |
 | Liberapay            | 📖 Scribe           | [Scribe Your Name](https://liberapay.com/kypria) |
@@ -109,7 +111,7 @@ Your pledge binds you to our campaign — triggering artifacts, roles, and logbo
 ---
 
 ### 🔗 Ritual Portals
-- 🌀 [Sponsor Gateway](https://kypria.com/sponsor)  
+- ♻️ [Sponsor Gateway](https://kypria.com/sponsor)  
 - 🏰 [Artifact Vault](https://discord.gg/kypria-legends)  
 - 📁 [GitHub Archive](https://github.com/kypria)  
 
@@ -130,4 +132,4 @@ Choose your path. Bind your name.
 In the endless pursuit, each push of the stone is recorded.  
 Commits may be frequent and direct, but the lineage binds them into the myth of the climb.
 
-📜 *Lineage is our law. Precision is our craft. Myth is our breath.*
+📝 *Lineage is our law. Precision is our craft. Myth is our breath.*
