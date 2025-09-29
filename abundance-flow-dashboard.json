@@ -1,0 +1,389 @@
+# 🌟 COMPLETE GRAFANA DASHBOARD JSON - ABUNDANCE FLOW TIME RITUAL
+
+{
+  "dashboard": {
+    "id": null,
+    "uid": "abundance-flow-ritual",
+    "title": "🏛️ Abundance Flow Time Ritual - The Sacred Observatory",
+    "timezone": "browser",
+    "schemaVersion": 37,
+    "version": 1,
+    "refresh": "30s",
+    "time": {
+      "from": "now-1h",
+      "to": "now"
+    },
+    "tags": ["temple", "abundance", "flow", "revenue", "sacred"],
+    "annotations": {
+      "list": [
+        {
+          "name": "Content Releases",
+          "datasource": "Prometheus",
+          "enable": true,
+          "expr": "changes(abundance_flow_time_seconds_count[1m]) > 0",
+          "iconColor": "gold",
+          "titleFormat": "⚔️ Content Published"
+        }
+      ]
+    },
+    "panels": [
+      {
+        "id": 1,
+        "type": "timeseries",
+        "title": "🌊 Panel 1: The Calm Stride - Average Flow Time (1h)",
+        "description": "The steady heartbeat of abundance - average time from content publish to first revenue attribution",
+        "datasource": {
+          "type": "prometheus",
+          "uid": "prometheus"
+        },
+        "targets": [
+          {
+            "expr": "abundance_flow_time:avg1h",
+            "legendFormat": "📈 Avg Flow Time",
+            "refId": "A"
+          },
+          {
+            "expr": "abundance_flow_time:median1h",
+            "legendFormat": "📊 Median Flow Time",
+            "refId": "B"
+          }
+        ],
+        "gridPos": {
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 8
+        },
+        "fieldConfig": {
+          "defaults": {
+            "unit": "s",
+            "min": 0,
+            "thresholds": {
+              "steps": [
+                {
+                  "color": "green",
+                  "value": null
+                },
+                {
+                  "color": "yellow",
+                  "value": 7200
+                },
+                {
+                  "color": "red",
+                  "value": 14400
+                }
+              ]
+            },
+            "overrides": [
+              {
+                "matcher": {
+                  "id": "byName",
+                  "options": "📈 Avg Flow Time"
+                },
+                "properties": [
+                  {
+                    "id": "color",
+                    "value": {
+                      "mode": "fixed",
+                      "fixedColor": "blue"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "options": {
+          "tooltip": {
+            "mode": "single",
+            "sort": "none"
+          },
+          "legend": {
+            "displayMode": "list",
+            "placement": "bottom",
+            "calcs": ["lastNotNull"]
+          }
+        }
+      },
+      {
+        "id": 2,
+        "type": "timeseries", 
+        "title": "🏹 Panel 2: The Taut Bowstring - 95th Percentile Flow Time",
+        "description": "The outliers and strain points - where the system shows stress before breaking",
+        "datasource": {
+          "type": "prometheus",
+          "uid": "prometheus"
+        },
+        "targets": [
+          {
+            "expr": "abundance_flow_time:95p1h",
+            "legendFormat": "🎯 95th Percentile",
+            "refId": "A"
+          },
+          {
+            "expr": "abundance_flow_time:max1h",
+            "legendFormat": "⚡ Maximum",
+            "refId": "B"
+          }
+        ],
+        "gridPos": {
+          "x": 12,
+          "y": 0,
+          "w": 12,
+          "h": 8
+        },
+        "fieldConfig": {
+          "defaults": {
+            "unit": "s",
+            "min": 0,
+            "thresholds": {
+              "steps": [
+                {
+                  "color": "green",
+                  "value": null
+                },
+                {
+                  "color": "yellow",
+                  "value": 3600
+                },
+                {
+                  "color": "orange",
+                  "value": 7200
+                },
+                {
+                  "color": "red",
+                  "value": 14400
+                }
+              ]
+            }
+          }
+        },
+        "options": {
+          "tooltip": {
+            "mode": "single",
+            "sort": "none"
+          },
+          "legend": {
+            "displayMode": "list",
+            "placement": "bottom",
+            "calcs": ["lastNotNull", "max"]
+          }
+        }
+      },
+      {
+        "id": 3,
+        "type": "scatterplot",
+        "title": "🥏 Panel 3: The Discus in Flight - Throughput vs Flow Time",
+        "description": "Motion captured mid-air - relationship between event speed and processing delay",
+        "datasource": {
+          "type": "prometheus",
+          "uid": "prometheus"
+        },
+        "targets": [
+          {
+            "expr": "abundance_flow_time:throughput5m",
+            "legendFormat": "Throughput (events/s)",
+            "refId": "X"
+          },
+          {
+            "expr": "abundance_flow_time:avg1h",
+            "legendFormat": "Flow Time (s)",
+            "refId": "Y"
+          }
+        ],
+        "gridPos": {
+          "x": 0,
+          "y": 8,
+          "w": 16,
+          "h": 8
+        },
+        "fieldConfig": {
+          "defaults": {
+            "custom": {
+              "scatterplot": {
+                "x": {
+                  "field": "Throughput (events/s)"
+                },
+                "y": {
+                  "field": "Flow Time (s)"
+                }
+              }
+            }
+          }
+        },
+        "options": {
+          "series": [
+            {
+              "x": "Throughput (events/s)",
+              "y": "Flow Time (s)",
+              "pointSize": {
+                "fixed": 5
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "type": "stat",
+        "title": "📯 Panel 4: The Herald's Cry - SLA Breaches",
+        "description": "The blunt, undeniable count of sacred Service Level Agreement violations",
+        "datasource": {
+          "type": "prometheus",
+          "uid": "prometheus"
+        },
+        "targets": [
+          {
+            "expr": "increase(abundance_flow_sla_breach_total[1h])",
+            "legendFormat": "Breaches (1h)",
+            "refId": "A"
+          },
+          {
+            "expr": "abundance_flow_time:sla_breach_rate1h",
+            "legendFormat": "Breach Rate %",
+            "refId": "B"
+          }
+        ],
+        "gridPos": {
+          "x": 16,
+          "y": 8,
+          "w": 8,
+          "h": 8
+        },
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "thresholds"
+            },
+            "mappings": [],
+            "thresholds": {
+              "steps": [
+                {
+                  "color": "green",
+                  "value": null
+                },
+                {
+                  "color": "yellow",
+                  "value": 1
+                },
+                {
+                  "color": "orange",
+                  "value": 5
+                },
+                {
+                  "color": "red",
+                  "value": 10
+                }
+              ]
+            },
+            "unit": "short"
+          },
+          "overrides": [
+            {
+              "matcher": {
+                "id": "byName",
+                "options": "Breach Rate %"
+              },
+              "properties": [
+                {
+                  "id": "unit",
+                  "value": "percent"
+                }
+              ]
+            }
+          ]
+        },
+        "options": {
+          "reduceOptions": {
+            "values": false,
+            "calcs": [
+              "lastNotNull"
+            ],
+            "fields": ""
+          },
+          "orientation": "auto",
+          "textMode": "auto",
+          "colorMode": "background",
+          "graphMode": "area",
+          "justifyMode": "auto"
+        }
+      },
+      {
+        "id": 5,
+        "type": "table",
+        "title": "⚔️ Sacred Metrics Summary - The Guardian's View",
+        "description": "All abundance flow metrics at a glance - the Guardian's tactical overview",
+        "datasource": {
+          "type": "prometheus", 
+          "uid": "prometheus"
+        },
+        "targets": [
+          {
+            "expr": "abundance_flow_time:avg1h",
+            "legendFormat": "Average Flow Time",
+            "refId": "A",
+            "format": "table",
+            "instant": true
+          },
+          {
+            "expr": "abundance_flow_time:95p1h", 
+            "legendFormat": "95th Percentile",
+            "refId": "B",
+            "format": "table", 
+            "instant": true
+          },
+          {
+            "expr": "abundance_flow_time:throughput5m",
+            "legendFormat": "Throughput (evt/s)",
+            "refId": "C",
+            "format": "table",
+            "instant": true
+          },
+          {
+            "expr": "abundance_flow_time:sla_breach_rate1h",
+            "legendFormat": "SLA Breach Rate %",
+            "refId": "D", 
+            "format": "table",
+            "instant": true
+          }
+        ],
+        "gridPos": {
+          "x": 0,
+          "y": 16,
+          "w": 24,
+          "h": 6
+        },
+        "fieldConfig": {
+          "defaults": {
+            "custom": {
+              "align": "center",
+              "displayMode": "color-background"
+            },
+            "mappings": [],
+            "thresholds": {
+              "steps": [
+                {
+                  "color": "green",
+                  "value": null
+                },
+                {
+                  "color": "yellow",
+                  "value": 80
+                },
+                {
+                  "color": "red",  
+                  "value": 90
+                }
+              ]
+            }
+          },
+          "overrides": []
+        },
+        "options": {
+          "showHeader": true
+        }
+      }
+    ]
+  },
+  "overwrite": true
+}
