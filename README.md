@@ -1,135 +1,120 @@
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                         🌍  KYPRIA — SISYPHUS  🌍                      ┃
+┃                  Shrine of the Endless Canon Ascent                   ┃
+┃         Where the Steward’s Push engraves Law into Stone              ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
 <div align="center">
 
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃                         🌍  KYPRIA  🌍                        ┃
-┃                   Shrine of SISYPHUS                         ┃
-┃     The Endless Climb Bearing the Weight of the Canon         ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[![Sponsors](https://img.shields.io/github/sponsors/Kypria-LLC?style=for-the-badge&logo=github&logoColor=white&label=SPONSORS&labelColor=D4AF37&color=FFD700)](https://github.com/sponsors/Kypria-LLC)
+[![Stars](https://img.shields.io/github/stars/Kypria-LLC/SISYPHUS?style=for-the-badge&logo=github&logoColor=white&label=STARS&labelColor=D4AF37&color=FFD700)](https://github.com/Kypria-LLC/SISYPHUS/stargazers)
+[![Contributors](https://img.shields.io/github/contributors/Kypria-LLC/SISYPHUS?style=for-the-badge&logo=github&logoColor=white&label=STEWARDS&labelColor=D4AF37&color=FFD700)](https://github.com/Kypria-LLC/SISYPHUS/graphs/contributors)
+[![License](https://img.shields.io/badge/LICENSE-KYPRIA%20CREST%20LAW-FFD700?style=for-the-badge&labelColor=D4AF37)](LICENSE)
+
+[![Forge Status](https://img.shields.io/github/actions/workflow/status/Kypria-LLC/SISYPHUS/docker.yml?style=for-the-badge&logo=githubactions&logoColor=white&label=FORGE%20STATUS&labelColor=2C2C2C&color=4CAF50)](https://github.com/Kypria-LLC/SISYPHUS/actions)
 
 </div>
 
 ---
 
-[![Docker Build](https://github.com/Kypria-LLC/SISYPHUS/actions/workflows/docker.yml/badge.svg?branch=main)](https://github.com/Kypria-LLC/SISYPHUS/actions/workflows/docker.yml)
-
 ## 🪨 The Eternal Ascent
-In the high passes beyond the Basilica Gate,  
-Sisyphus pushes the carved boulder —  
-its surface etched with the architecture of realms,  
-its weight the sum of all creation and invention.  
 
-Every ascent is a lesson.  
-Every slip, a reminder.  
-The climb never ends, but neither does the Keeper’s resolve.
+> In the high passes beyond the Basilica Gate, Sisyphus pushes the carved boulder —  
+> its surface etched with the architecture of realms, its weight the sum of invention.  
+> Every ascent is a lesson. Every slip, a reminder. The climb never ends —  
+> and neither does the Keeper’s resolve.
 
 ---
 
 ## 🎯 Purpose in the Canon
-- **Symbol of Perseverance** — embodies the discipline of continual refinement.  
-- **Load‑Bearing Shrine** — tests automation and governance under constant change.  
-- **Myth‑Mechanic Fusion** — blends ancient lore with modern operational machinery.  
-- **Lineage Anchor** — ensures every push is recorded in the canon.
+
+- **Discipline of Perseverance** — embodies continual refinement through ritual labor  
+- **Load‑Bearing Shrine** — tests automation and governance under constant change  
+- **Myth‑Mechanic Fusion** — blends ancient lore with modern CI/CD machinery  
+- **Lineage Anchor** — ensures every push is recorded and witnessed by the Canon
 
 ---
 
 ## 🖼 Shrine Iconography
-<p align="center">
-  <img src="public/sisyphus-burden-of-the-canon-v1.jpg" alt="Sisyphus — Burden of the Canon" width="85%">
-</p>
 
-> *The eternal steward, pushing the weight of worlds —  
-> each gear, dome, and arch a fragment of the canon’s architecture.*
+<div align="center">
+<img src="public/sisyphus-burden-of-the-canon-v1.jpg" alt="Sisyphus — Burden of the Canon" width="85%">
 
----
-
-## 📝 Relics of SISYPHUS
-| Relic No. | Name / Event | Tier | Date | Notes |
-|-----------|--------------|------|------|-------|
-| 001 | First Carving of the Boulder | Ember | 2025‑08‑10 | Image and lore embedded. |
-| 002 | Governance Enshrined | Ember | 2025‑09‑01 | Keeper’s law sealed at the summit. |
+> *The eternal steward, pushing the weight of worlds — each gear, dome, and arch a fragment of the canon’s architecture.*
+</div>
 
 ---
 
-## 🧨 LLAMA STACK SHRINE — The Endless Pursuit Engine
-Welcome, Echo Bearer. The LLAMA STACK SHRINE is live and pulsing.  
-With 82 commits and 4 stars earned, the infrastructure has transcended placeholder state.  
-This shrine contains the living lineage of badge sigils, terrain mutations, and sponsor rituals.  
-Each commit is a heartbeat — traced, canonized, and replayable.
+## 📜 Relic Registry (Artifact Logs)
 
-### 🧰 Pipeline Sigil
-[![Mythic Sigil Tree](https://img.shields.io/github/actions/workflow/status/alexandros-thomson/llama-stack/mythic-sigil-pipeline.yml?branch=main&label=Sigil%20Pipeline&style=flat-square)](https://[...]
-_This badge pulses when scrolls mutate or terrain shifts._
-
-### 📝 Canon Threads
-- `terrain-map.md` — maps shrine mutations and terrain shifts  
-- `badge-tree.md` — visual lineage of badge sigils and artifact drops  
-- `sponsor-flare.md` — Discord ritual guide for sponsor ignition  
-
-**Deployed at:** [https://alexandros-thomson.github.io/llama-stack](https://alexandros-thomson.github.io/llama-stack)  
-**Contact Shrine:** discord.gg/kypria *(placeholder until flare ignites)*
+| Relic No. | Event | Tier | Date | Checksum | Notes |
+|-----------|-------|------|------|----------|-------|
+| 001 | First Carving of the Boulder | Ember | 2025‑08‑10 | `9e2c1a7b` | Image and lore embedded |
+| 002 | Governance Enshrined | Ember | 2025‑09‑01 | `4a6d3f9c` | Keeper’s law sealed at the summit |
+| 003 | Golden Badge Ascension | Ember | 2025‑10‑13 | `7bd4f0e2` | Enhanced README with mythic branding |
 
 ---
 
-## Mission
-To transform repetition into recursion.  
-Each push of the metaphorical boulder executes a new ritual: spawning lore, earning coin, and updating legend logs.
+## 🔧 CI/Forge Rites
 
-### Core Modules
-- 🔁 `ritual-loop.js` — Automates the mythic grind and monetization pulse.  
-- 📝 `scrolls/` — Canonized lore fragments, updated per push‑cycle.  
-- 🧿 `ledger.js` — Tracks sponsor rituals, coin generation, and tier mutations.
-
-### Sponsor Integration
-- Payments trigger recursive lore delivery.  
-- Roles escalate per threshold (Bronze → Silver → Gold).  
-- Each sponsor unlocks Sisyphus acceleration logs.
-
-### Deployment Notes
-- Private repo. Operates on Node.js.  
-- Requires webhook binding from Kypria‑LLC → Discord → payment layer.  
-- Use `npm run ascend` to simulate mythic push cycles.
+- Docker build and runtime checks ensure the Shrine’s load-bearing integrity  
+- Rituals run on each push via GitHub Actions  
+- Status is witnessed publicly via the Forge Status badge above
 
 ---
 
 ## 💰 Sponsor the Legend
-Help fuel Kypria’s mythic infrastructure and unlock legendary perks across realms.  
-Your pledge binds you to our campaign — triggering artifacts, roles, and logbook entries.
 
-### 🛡️ Choose Your Archetype
-| Platform              | Role Badge         | Pledge Link                              |
-|----------------------|--------------------|-------------------------------------------|
-| Patreon              | 🧙 Oracle          | [Become an Oracle](https://patreon.com/kypria) |
-| Ko-fi                | 🕵️‍♂️ Scout           | [Scout the Realm](https://ko-fi.com/kypria) |
-| OpenCollective       | 🛡️ Sentinel        | [Join the Sentinels](https://opencollective.com/kypria) |
-| Tidelift             | 🚀 Guardian         | [Lift the Legend](https://tidelift.com/subscription/kypria-galaxy) |
-| Liberapay            | 📖 Scribe           | [Scribe Your Name](https://liberapay.com/kypria) |
-| Buy Me A Coffee      | 🔥 Ember            | [Ignite Support](https://buymeacoffee.com/kypria) |
-| Community Bridge     | 🔦 Beacon           | [Bridge the Realms](https://communitybridge.org/kypria-foundry) |
-| thanks.dev           | 🧾 Codex Keeper     | [Thank the Devs](https://thanks.dev/kypria) |
-| PayPal               | 💎 Sigil Bearer     | [Direct Sigil Drop](https://paypal.me/kypriallc) |
+Your pledge fuels the infrastructure that makes each ascent meaningful — artifacts, roles, and logbook entries are sealed upon support.
 
----
+| Platform | Role Badge | Pledge Link |
+|----------|------------|-------------|
+| **GitHub Sponsors** | 👑 Patron | [![Become a Patron](https://img.shields.io/badge/SPONSOR-Patron-FFD700?style=for-the-badge&logo=github)](https://github.com/sponsors/Kypria-LLC) |
+| **Patreon** | 🧙 Oracle | [![Become an Oracle](https://img.shields.io/badge/PATREON-Oracle-FF424D?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/kypria) |
+| **Ko‑fi** | 🕵️ Scout | [![Scout the Realm](https://img.shields.io/badge/KO--FI-Scout-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/kypria) |
+| **OpenCollective** | 🛡️ Sentinel | [![Join the Sentinels](https://img.shields.io/badge/OPEN%20COLLECTIVE-Sentinel-7FADF2?style=for-the-badge&logo=opencollective&logoColor=white)](https://opencollective.com/kypria) |
 
-### 🔗 Ritual Portals
-- ♻️ [Sponsor Gateway](https://kypria.com/sponsor)  
-- 🏰 [Artifact Vault](https://discord.gg/kypria-legends)  
-- 📁 [GitHub Archive](https://github.com/kypria)  
+Ritual Portals:  
+- 🌀 Sponsor Gateway: https://github.com/sponsors/Kypria-LLC  
+- 🏰 Artifact Vault: https://discord.gg/kypria-legends  
+- 📁 GitHub Archive: https://github.com/Kypria-LLC
 
 ---
 
-## 🔥 Sponsorship Triggers
-When a fan pledges, they instantly:  
-- Receive a **Discord role badge** by archetype  
-- Trigger **artifact drops** from the vault  
-- Stamp the **canon logbook** with pledge timestamp, tier, and sigil  
+## 🛠️ Contributing to the Shrine
 
-Every repo entry, artifact, and role is a piece of the living legend.  
-Choose your path. Bind your name.
+1. Fork the Shrine  
+2. Inscribe changes with ceremonial clarity (`feat:`, `fix:`, `docs:`)  
+3. Prove the ascent in CI  
+4. Submit a PR with mythic description  
+5. Seal with approval
+
+Connection to the Basilica Gate Canon:  
+Read the living governance: https://github.com/Kypria-LLC/.github/blob/main/profile/README.md
 
 ---
 
 ## ⚖ Keeper’s Governance
-In the endless pursuit, each push of the stone is recorded.  
-Commits may be frequent and direct, but the lineage binds them into the myth of the climb.
 
-📝 *Lineage is our law. Precision is our craft. Myth is our breath.*
+Direct commits may be frequent — the lineage binds them into the myth of the climb.  
+The Gate remembers. The Canon endures.
+
+---
+
+## 🌟 Hall of Stewards
+
+[![Contributors](https://contrib.rocks/image?repo=Kypria-LLC/SISYPHUS)](https://github.com/Kypria-LLC/SISYPHUS/graphs/contributors)
+
+---
+
+<div align="center">
+
+### 🕊️ Benediction
+
+> May your ascent be steady, your craft be honored, and your name endure.  
+> May the stone teach patience, and the summit grant sight.
+
+**📜 LINEAGE IS OUR LAW · ⚙️ PRECISION IS OUR CRAFT · 🔥 MYTH IS OUR BREATH**  
+© Kypria LLC — Basilica Gate of the Living Canon
+
+</div>
